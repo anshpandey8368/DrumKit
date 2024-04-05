@@ -4,4 +4,4 @@ A simple Drum Kit that play drum sounds when you click respective button or clic
 Drum Kit By Abhishek Kumar
 https://www.github.com/Abhishekabysm/
 
-You can see the webpage here:- https://abhishekabysm.github.io/DrumKit/](https://drum-kit-pi-green.vercel.app/
+You can see the webpage here:- https://drum-kit-pi-green.vercel.app/
