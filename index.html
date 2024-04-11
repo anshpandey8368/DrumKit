@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Drum Kit</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
-
 <body>
-
-  <h1 id="title">Drum &#x1F941; Kit</h1>
-  <div class="set">
-    <button class="w drum">w</button>
-    <button class="a drum">a</button>
-    <button class="s drum">s</button>
-    <button class="d drum">d</button>
-    <button class="j drum">j</button>
-    <button class="k drum">k</button>
-    <button class="l drum">l</button>
+  <div class="main-frame">
+    <img src="https://img.freepik.com/premium-vector/drum-kit-percussion-musical-instrument-red-drums-stick-cymbal-flat-style-vector-illustration_625536-3402.jpg" alt="Drum Kit Image" usemap="#drumMap">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSesUACKIjYs1j4QO_yGgbltae6IVDt7TcLtEtI8nW6FkYWzbTBj-5FVGdWtO4-lcwG9Fk&usqp=CAU" id="p2">
+    <map name="drumMap" id="drumMap">
+      <area shape="circle" coords="110,170,70" data-sound="sounds/tom-1.mp3" class="snd1">
+      <area shape="circle" coords="270,170,70" data-sound="sounds/tom-2.mp3" class="snd2">
+      <area shape="circle" coords="430,170,70" data-sound="sounds/tom-3.mp3" class="snd3">
+      <area shape="circle" coords="590,170,70" data-sound="sounds/tom-4.mp3" class="snd4">
+      <area shape="circle" coords="750,170,70" data-sound="sounds/snare.mp3" class="snd5">
+      <area shape="circle" coords="910,170,70" data-sound="sounds/crash.mp3" class="snd6">
+      <area shape="circle" coords="1070,170,70" data-sound="sounds/kick-bass.mp3" class="snd7">
+    </map>
   </div>
-
-
   <footer>
     Made with ❤️ in India.
   </footer>
   <script src="script.js"></script>
 </body>
-
 </html>
